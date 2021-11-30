@@ -1,7 +1,5 @@
 package fr.lernejo;
 
-
-
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -9,7 +7,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOf
 
 class SampleTest {
 
-    private static Sample sample = new Sample();
+    private final Sample sample = new Sample();
 
     @Test
     void addition_2_et_3_should_5() {
